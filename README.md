@@ -5,7 +5,12 @@ last change: 12.08.2023,
 last change by user: Elvenicher
 
 ## Description
-Describe what your project is about and what it does
+This project is created to analyze bikeshare data. The following statistics can be analyzed: 
+
+- time_stats
+- station_stats
+- trip_duration_stats
+- user_stats
 
 ## Files used
 | Files | File Type |
