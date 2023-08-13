@@ -17,14 +17,8 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-
-
     # get user input for month (all, january, february, ... , june)
-
-
     # get user input for day of week (all, monday, tuesday, ... sunday)
-
-
     print('-'*40)
     return city, month, day
 
@@ -88,7 +82,7 @@ def trip_duration_stats(df):
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
-    
+
     # display total travel time
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
